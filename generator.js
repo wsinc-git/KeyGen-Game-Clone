@@ -16,7 +16,7 @@
 // ==/UserScript==
 
 const APP_TOKEN = '74ee0b5b-775e-4bee-974f-63e7f4d5bacb'
-const PROMO_ID = 'd1690a07-3780-4068-810f-9b5bbf2931b2'
+const PROMO_ID = 'fe693b26-b342-4159-8808-15e3ff7f8767'
 
 const DEBUG_MODE = false
 const EVENTS_DELAY = DEBUG_MODE ? 350 : 20000
