@@ -1,17 +1,17 @@
 // ==UserScript==
-// @name        Hamster clone keygen - wsinc
+// @name        Hamster Keygen Game Clone - wsinc
 // @version     1.11
-// @homepageURL https://wsinc-git.github.io/Test/
-// @downloadURL https://wsinc-git.github.io/Test/generator.js
+// @homepageURL https://wsinc-git.github.io/KeyGen-Game_Clone/
+// @downloadURL https://wsinc-git.github.io/KeyGen-Game_Clone/generator.js
 // @author      wsinc
 // @namespace   Violentmonkey Scripts
-// @match       *://wsinc-git.github.io/Test/*
+// @match       *://wsinc-git.github.io/KeyGen-Game_Clone/*
 // @grant       GM_xmlhttpRequest
 // @grant       GM_getResourceURL
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://wsinc-git.github.io/Test/keygen-wsinc.png
+// @resource    BACKGROUND https://wsinc-git.github.io/KeyGen-Game_Clone/keygen-wsinc.png
 // @noframes
 // ==/UserScript==
 
@@ -179,7 +179,7 @@ function createLayout() {
   promoLink.style.left = '10px'
   promoLink.style.top = '10px'
   promoLink.href = location.href
-  promoLink.innerText = 'wsinc/generator-code-key-hamster-kombat'
+  promoLink.innerText = 'wsinc/KeyGen-Game_Clone'
   promoLink.target = '_blank'
 
   const keyText = document.createElement('div')
@@ -245,7 +245,7 @@ function createLayout() {
   startBtn.addEventListener('click', runAudio)
   function runAudio() {
     startBtn.removeEventListener('click', runAudio)
-    const audio = new Audio('https://wsinc-git.github.io/generator-code-key-hamster-kombat/sound3.mp3')
+    const audio = new Audio('https://wsinc-git.github.io/KeyGen-Game_Clone/sound3.mp3')
     audio.loop = true
     function switchAudio() {
       if (audio.paused) {
