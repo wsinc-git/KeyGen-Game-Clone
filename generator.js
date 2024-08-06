@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Hamster bike keygen - wsinc
+// @name        Hamster clone keygen - wsinc
 // @version     1.11
 // @homepageURL https://wsinc-git.github.io/Test/
 // @downloadURL https://wsinc-git.github.io/Test/generator.js
@@ -11,7 +11,7 @@
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://wsinc-git.github.io/Test/keygen.png
+// @resource    BACKGROUND https://wsinc-git.github.io/Test/keygen-wsinc.png
 // @noframes
 // ==/UserScript==
 
