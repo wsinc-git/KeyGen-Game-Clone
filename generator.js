@@ -1,22 +1,22 @@
 // ==UserScript==
 // @name        Hamster bike keygen - wsinc
 // @version     1.11
-// @homepageURL https://wsinc-git.github.io/generator-code-key-hamster-kombat/
-// @downloadURL https://wsinc-git.github.io/generator-code-key-hamster-kombat/generator.js
+// @homepageURL https://wsinc-git.github.io/Test/
+// @downloadURL https://wsinc-git.github.io/Test/generator.js
 // @author      wsinc
 // @namespace   Violentmonkey Scripts
-// @match       *://wsinc-git.github.io/generator-code-key-hamster-kombat/*
+// @match       *://wsinc-git.github.io/Test/*
 // @grant       GM_xmlhttpRequest
 // @grant       GM_getResourceURL
 // @grant       GM_getValue
 // @grant       GM_setValue
 // @run-at      document-end
-// @resource    BACKGROUND https://wsinc-git.github.io/generator-code-key-hamster-kombat/keygen.png
+// @resource    BACKGROUND https://wsinc-git.github.io/Test/keygen.png
 // @noframes
 // ==/UserScript==
 
-const APP_TOKEN = 'd28721be-fd2d-4b45-869e-9f253b554e50'
-const PROMO_ID = '43e35910-c168-4634-ad4f-52fd764a843f'
+const APP_TOKEN = '74ee0b5b-775e-4bee-974f-63e7f4d5bacb'
+const PROMO_ID = 'd1690a07-3780-4068-810f-9b5bbf2931b2'
 
 const DEBUG_MODE = false
 const EVENTS_DELAY = DEBUG_MODE ? 350 : 20000
@@ -321,7 +321,7 @@ async function emulateProgess(clientToken) {
 async function generateKey(clientToken) {
     if (DEBUG_MODE) {
       if (attempts[clientToken] >= 5) {
-        return 'BIKE-XXX-XXXX-XXXX-XXX'
+        return CLONE-XXX-XXXX-XXXX-XXX'
       } else {
         return ''
       }
